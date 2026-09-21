@@ -73,7 +73,7 @@ const leadershipTeam = [
     {
         name: "Yash Gadia",
         role: "Technical Co-Head",
-        imageUrl: "/images/yash-gadia.jpg",
+        imageUrl: "/images/yash-gadia-home.webp",
         branch: "CSE",
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/yashgadia/",
@@ -147,4 +147,3 @@ const LeadershipPage = () => (
 )
 
 export default LeadershipPage
-

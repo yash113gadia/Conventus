@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { User, Phone, Mail, Building, X, Link, Upload, FileUp, Search, ChevronDown, XCircle } from "lucide-react"
 
@@ -609,9 +610,9 @@ const OCRegistrationForm = () => {
             <div className="md:col-span-2 mt-4">
               <div className="flex flex-col items-center space-y-4">
                 <div
-                  className={`w-48 h-48 border rounded-lg p-2 bg-gray-50 ${isRegistrationClosed ? "opacity-50" : ""}`}
+                  className={`relative w-48 h-48 border rounded-lg p-2 bg-gray-50 ${isRegistrationClosed ? "opacity-50" : ""}`}
                 >
-                  <img src="/QR's/OC.jpg" alt="NIET Payment QR" className="w-full h-full object-contain" />
+                  <Image src="/QR's/OC.jpg" alt="NIET Payment QR" fill sizes="192px" className="object-contain p-2" />
                 </div>
                 <span className={`text-sm ${isRegistrationClosed ? "text-gray-500 line-through" : "text-gray-700"}`}>
                   Scan to pay OC Membership Fee (Rs 200)
@@ -736,4 +737,3 @@ const OCRegistrationForm = () => {
 }
 
 export default OCRegistrationForm
-

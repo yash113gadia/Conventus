@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const SponsorsSection = () => {
@@ -45,11 +46,15 @@ const SponsorsSection = () => {
                             <div className="relative w-full aspect-square">
                                 <div className="absolute inset-0 bg-white rounded-xl transform group- transition-all duration-300 p-4">
                                     <div className="w-full h-full bg-paper rounded-lg flex items-center justify-center border border-red-100 overflow-hidden">
-                                        <img
-                                            src={sponsor.logo}
-                                            alt={sponsor.name}
-                                            className="w-3/4 h-3/4 object-contain filter group-hover:brightness-110 transition-all duration-300"
-                                        />
+                                        <div className="relative w-3/4 h-3/4">
+                                            <Image
+                                                src={sponsor.logo}
+                                                alt={sponsor.name}
+                                                fill
+                                                sizes="(max-width: 768px) 50vw, 33vw"
+                                                className="object-contain filter group-hover:brightness-110 transition-all duration-300"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

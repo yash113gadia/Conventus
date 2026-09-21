@@ -153,10 +153,10 @@ export default function AboutPageOne() {
             info: "Is working as an Associate Dean Student Welfare and Assistant Professor in the Department of Electronics and Communication Engineering with experience of 13 years. She is graduated with honors in Electronics and Communication Engineering from Uttar Pradesh Technical University in 2010. She is Gold Medalist in M.Tech (VLSI Design) from Uttar Pradesh Technical University in 2012. She is young and dynamic in organizing cultural and technical events."
         },
         {
-            name: "Deep Jyoti Roy",
+            name: "Deepjyoti Roy",
             position: "Faculty Co-Ordinator",
-            image: "",
-            info: "As Faculty Coordinator of Conventus, Deep Jyoti Roy guides the club's academic direction and mentors students in debate, rhetoric, and diplomacy. The role bridges the society and the institution — shaping the conference calendar, preparing delegates for national and international MUN circuits, and ensuring every Conventus event upholds the standards of rigour and decorum the club is known for."
+            image: "/images/deepjyoti-roy.jpeg",
+            info: "As Faculty Coordinator of Conventus, Deepjyoti Roy guides the club's academic direction and mentors students in debate, rhetoric, and diplomacy. The role bridges the society and the institution — shaping the conference calendar, preparing delegates for national and international MUN circuits, and ensuring every Conventus event upholds the standards of rigour and decorum the club is known for."
         },
     ];
 
@@ -170,7 +170,7 @@ export default function AboutPageOne() {
         {
             name: "Yash Gadia",
             position: "Vice President",
-            image: "/images/yash-gadia.jpg",
+            image: "/images/yash-gadia-about.webp",
             info: "As Vice President, Yash Gadia supports the council in strengthening the club’s initiatives and helping members grow personally and professionally. The role spans planning, execution, and the day-to-day work that keeps Conventus running, ensuring every event aligns with the club’s mission to promote dialogue, inclusivity, and global awareness."
         },
         {
@@ -180,11 +180,11 @@ export default function AboutPageOne() {
             info: "As Vice President, Rachit Sai Sheelwant works to build a space where students can engage with pressing global issues, practise diplomacy, and sharpen their leadership abilities. The role focuses on preparing delegates for committee, guiding new members through their first conferences, and upholding the standards of debate Conventus is known for."
         },
         {
-            name: "Gauri Saxena",
+            name: "Gouri Saxena",
             position: "Vice President",
             image: "/images/Gauri_Saxena.jpg",
             objectPosition: "center center",
-            info: "As Vice President, Gauri Saxena is dedicated to fostering collaboration and innovation within the Conventus community, encouraging students to voice their perspectives on international affairs while building confidence and communication skills. Through this work, Conventus remains a dynamic environment where members grow into thoughtful, impactful leaders ready to engage with the world."
+            info: "As Vice President, Gouri Saxena is dedicated to fostering collaboration and innovation within the Conventus community, encouraging students to voice their perspectives on international affairs while building confidence and communication skills. Through this work, Conventus remains a dynamic environment where members grow into thoughtful, impactful leaders ready to engage with the world."
         },
     ];
 

@@ -74,7 +74,7 @@ const Contact = () => {
                                     email="3rd Year"
                                 />
                                 <ContactPerson
-                                    name="Gauri Saxena"
+                                    name="Gouri Saxena"
                                     title="Vice - President"
                                     phone="+91 92893 72861"
                                     email="3rd Year"

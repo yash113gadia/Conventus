@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, VolumeX, Volume2 } from 'lucide-react';
 
@@ -136,9 +137,12 @@ const AutoCurtainReveal = ({ children, onClose }) => {
 const DussehraGreeting = ({ onClose }) => {
   return (
     <AutoCurtainReveal onClose={onClose}>
-      <img
+      <Image
         src="/images/Dussehra Instagram Post.png"
         alt="Happy Dussehra"
+        width={1080}
+        height={1080}
+        sizes="(max-width: 768px) 100vw, 768px"
         className="w-full h-full object-contain"
       />
     </AutoCurtainReveal>

@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { User, Phone, Mail, Building, X, Link, Upload, FileUp, Search, Download, Eye, XCircle } from 'lucide-react';
 import Header from '@/components/Header';
@@ -501,11 +502,13 @@ const DelegateRegistrationForm = () => {
                                         </label>
                                         {formData.institute === 'NIET' ? (
                                             <div className="flex flex-col items-center space-y-4">
-                                                <div className="w-48 h-48 border rounded-lg p-2 bg-white">
-                                                    <img
+                                                <div className="relative w-48 h-48 border rounded-lg p-2 bg-white">
+                                                    <Image
                                                         src="/QR's/NIET deleg.jpg"
                                                         alt="NIET Payment QR"
-                                                        className="w-full h-full object-contain"
+                                                        fill
+                                                        sizes="192px"
+                                                        className="object-contain p-2"
                                                     />
                                                 </div>
                                                 <a
@@ -519,11 +522,13 @@ const DelegateRegistrationForm = () => {
                                             </div>
                                         ) : (
                                             <div className="flex flex-col items-center space-y-4">
-                                                <div className="w-48 h-48 border rounded-lg p-2 bg-white">
-                                                    <img
+                                                <div className="relative w-48 h-48 border rounded-lg p-2 bg-white">
+                                                    <Image
                                                         src="/QR's/Other Deleg.jpg"
                                                         alt="Other Institute Payment QR"
-                                                        className="w-full h-full object-contain"
+                                                        fill
+                                                        sizes="192px"
+                                                        className="object-contain p-2"
                                                     />
                                                 </div>
                                                 <a

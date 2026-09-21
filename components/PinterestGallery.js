@@ -102,14 +102,16 @@ const PinterestGallery = ({
                             initial={{ scale: 0.8 }}
                             animate={{ scale: 1 }}
                             exit={{ scale: 0.8 }}
-                            className="relative max-w-screen-lg max-h-screen overflow-auto"
+                            className="relative w-[min(92vw,64rem)] h-[85vh]"
                             onClick={(e) => e.stopPropagation()}
                         >
-                            <div className="relative flex items-center justify-center">
-                                <img
+                            <div className="relative w-full h-full flex items-center justify-center">
+                                <Image
                                     src={typeof selectedImage === 'string' ? selectedImage : selectedImage.src}
                                     alt={selectedImage.alt || "Expanded gallery image"}
-                                    className="max-h-[85vh] max-w-full object-contain"
+                                    fill
+                                    sizes="100vw"
+                                    className="object-contain"
                                 />
                                 <motion.button
                                     className="absolute top-2 right-2 text-white bg-red-600 rounded-full p-2 z-10"
