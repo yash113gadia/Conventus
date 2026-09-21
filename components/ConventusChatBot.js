@@ -46,7 +46,7 @@ const ConventusChatbot = () => {
         if (isOpen && messages.length === 0) {
             setMessages([
                 {
-                    text: "Hello! I'm the Conventus Club MUN assistant. How can I help you today? You can ask me about our events, registration, or how to contact us.",
+                    text: "Hello! I'm the Conventus Club MUN assistant. Ask me about our society, events, committees, or how to contact us.",
                     sender: 'bot',
                     timestamp: new Date()
                 }
@@ -126,26 +126,26 @@ const ConventusChatbot = () => {
 
     const renderMessage = (message) => {
         const text = message.text || '';
-        const registrationLink = 'https://conventusmun.com/cmun-connect';
+        const eventLink = 'https://conventusmun.com/cmun-connect';
         const contactLink = 'https://conventusmun.com/ContactForm';
 
         // Clean the text by removing any trailing "undefined" or similar artifacts
         const cleanText = text.replace(/undefined$/, '').trim();
 
-        if (cleanText.includes(registrationLink) || cleanText.includes(contactLink)) {
+        if (cleanText.includes(eventLink) || cleanText.includes(contactLink)) {
             return (
                 <div className="space-y-4">
                     <TypewriterEffect text={cleanText} />
                     <div className="flex flex-wrap gap-3 pt-2">
-                        {cleanText.includes(registrationLink) && (
+                        {cleanText.includes(eventLink) && (
                             <a
-                                href={registrationLink}
+                                href={eventLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-primary rounded-lg transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2"
                             >
                                 <Sparkles className="w-4 h-4 mr-2" />
-                                Register Now
+                                View CMUN Connect
                                 <ExternalLink className="w-4 h-4 ml-2" />
                             </a>
                         )}
@@ -305,4 +305,4 @@ const ConventusChatbot = () => {
     );
 };
 
-export default ConventusChatbot; 
+export default ConventusChatbot;

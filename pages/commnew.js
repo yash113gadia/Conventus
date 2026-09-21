@@ -224,11 +224,11 @@ export default function CommitteesPage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(170,23,44,0.15),transparent)] pointer-events-none" />
             
             <h3 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-yellow-400 tracking-wide text-">
-              SECURE YOUR SEAT AT DIPLOMACY
+              CMUN CONNECT: SESSION CONCLUDED
             </h3>
             
             <p className="text-red-100/90 text-base md:text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-              Join political minds, passionate debaters, and visionary storytellers at the prestigious 2nd Edition of Conventus MUN. Shape the global discourse today.
+              Revisit the committees, closing communiqué, and conference gallery from CMUN Connect.
             </p>
             
             <div className="flex justify-center">
@@ -237,7 +237,7 @@ export default function CommitteesPage() {
                   className="px-10 py-4 bg-yellow-400 hover:bg-yellow-500 text-red-955 font-bold text-lg rounded-full transition-all duration-300 transform"
                   whileHover={{ scale: 1.05, y: -2 }}
                 >
-                  Register Now
+                  View Conference Recap
                 </motion.button>
               </Link>
             </div>
@@ -260,4 +260,3 @@ export default function CommitteesPage() {
     </div>
   )
 }
-

@@ -21,10 +21,10 @@ const LearnMoreSection = () => {
             route: "/commnew"
         },
         {
-            title: "Registration",
-            description: "Registration are now open, Secure your front-row seat to diplomacy now!",
+            title: "CMUN Connect",
+            description: "Read the conference communiqué and explore the completed event.",
             image: "/images/h4.jpg",
-            route: "/registration"
+            route: "/cmun-connect"
         }
     ];
 

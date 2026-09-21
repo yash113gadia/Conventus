@@ -109,7 +109,7 @@ export default function StatusPortal() {
                   <div className="text-center py-6">
                     <Search size={32} className="text-ink-300 mx-auto mb-3" />
                     <p className="text-sm text-ink-700">No registration found for <span className="font-bold">{email}</span>.</p>
-                    <a href="/cmun-connect" className="btn-primary mt-5 inline-flex">Register Now <ArrowRight size={16} /></a>
+                    <a href="/cmun-connect" className="btn-primary mt-5 inline-flex">View Conference Recap <ArrowRight size={16} /></a>
                   </div>
                 ) : (
                   <div className="space-y-5">

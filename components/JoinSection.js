@@ -26,15 +26,15 @@ const JoinSection = () => {
 
                     {/* Right Column - Premium Editorial Copy & Button */}
                     <div className="md:col-span-7 p-8 sm:p-12 lg:p-16 flex flex-col justify-center items-start text-left bg-gradient-to-br from-paper to-white">
-                        <p className="eyebrow text-xs text-primary mb-3">Join Us</p>
+                        <p className="eyebrow text-xs text-primary mb-3">Conference Archive</p>
                         <h2 className="font-serif-display text-3xl sm:text-4xl font-bold text-ink mb-4 leading-tight">
-                            We&apos;re just getting started
+                            Revisit CMUN Connect
                         </h2>
                         
                         <div className="w-12 h-px bg-primary/40 mb-6" />
                         
                         <p className="text-ink-600 text-sm sm:text-base leading-relaxed mb-8 text-justify">
-                            Embark on a transformative journey of leadership, global diplomacy, and critical thinking. Shape the international discourse and connect with a dynamic community of visionary changemakers.
+                            The session has concluded. Read the Secretariat&apos;s closing note and revisit the committees and moments that shaped CMUN Connect.
                         </p>
 
                         <div className="relative w-full">
@@ -44,7 +44,7 @@ const JoinSection = () => {
                                 onMouseEnter={() => setIsHovered(true)}
                                 onMouseLeave={() => setIsHovered(false)}
                             >
-                                Launch Your Journey
+                                View the Conference
                                 <ArrowRight size={18} />
                             </Link>
                             
@@ -56,7 +56,7 @@ const JoinSection = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 5 }}
                                     >
-                                        Secure your front-row seat to global diplomacy.
+                                        Open the CMUN Connect conference archive.
                                     </motion.p>
                                 )}
                             </AnimatePresence>
