@@ -27,13 +27,12 @@ const Header = ({ theme = 'default' }) => {
             href: "#",
             label: "MUN",
             dropdown: [
+                { href: "/cmun-connect", label: "CMUN Connect" },
                 { href: "/mun2.0", label: "MUN 2.0" },
                 { href: "/mun1.0", label: "MUN 1.0" },
                 { href: "/Resources", label: "Diplomatic Resources" },
-                { href: "/news", label: "NewsLetter" },
             ]
         },
-        { href: "/cmun-connect", label: "Register" },
         // { href: "/status", label: "My Status" }, // hidden for now — delegate portal to be released later
         { href: "/commnew", label: "Committees" },
         {
@@ -44,6 +43,7 @@ const Header = ({ theme = 'default' }) => {
                 { href: "/pastevents", label: "Past Events" },
                 { href: "/upcomingevents", label: "Upcoming Events" },
                 { href: "/founder", label: "Founder" },
+                { href: "/news", label: "Newsletters" },
                 { href: "/institutional-newsletter", label: "Institutional Newsletter" },
             ],
         },

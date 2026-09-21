@@ -120,14 +120,6 @@ const EventDetails = ({ event, onClose }) => (
           <li>Participants: {event.participants}</li>
         </ul>
       </div>
-      <div className="text-center">
-        <button
-          className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition"
-          onClick={() => alert(`You have registered for ${event.title}!`)}
-        >
-          Register Now
-        </button>
-      </div>
     </div>
   </motion.div>
 );

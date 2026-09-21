@@ -108,10 +108,6 @@ const EmptyState = () => (
 );
 
 const EventDetails = ({ event, onClose }) => {
-  function gotoregister() {
-    window.location.href = "/cmun-connect";
-  }
-
   return (
 
     <motion.div
@@ -146,14 +142,6 @@ const EventDetails = ({ event, onClose }) => {
             <li>Duration: {event.duration}</li>
             {/* <li>Participants: {event.participants}</li> */}
           </ul>
-        </div>
-        <div className="text-center">
-          <button
-            className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition"
-            onClick={gotoregister}
-          >
-            Register Now
-          </button>
         </div>
       </div>
     </motion.div>

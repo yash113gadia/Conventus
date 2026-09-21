@@ -50,7 +50,7 @@ const Welcome = () => {
                 </p>
 
                 <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <Link href="/cmun-connect" className="btn-primary">Register Now</Link>
+                    <Link href="/cmun-connect" className="btn-primary">View CMUN Connect</Link>
                     <Link href="/aboutus" className="btn-ghost-light">Explore the Society</Link>
                 </div>
             </div>

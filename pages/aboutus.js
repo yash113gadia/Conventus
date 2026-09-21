@@ -153,31 +153,38 @@ export default function AboutPageOne() {
             info: "Is working as an Associate Dean Student Welfare and Assistant Professor in the Department of Electronics and Communication Engineering with experience of 13 years. She is graduated with honors in Electronics and Communication Engineering from Uttar Pradesh Technical University in 2010. She is Gold Medalist in M.Tech (VLSI Design) from Uttar Pradesh Technical University in 2012. She is young and dynamic in organizing cultural and technical events."
         },
         {
-            name: "Mr. Shiv Nayan Prakash",
+            name: "Deep Jyoti Roy",
             position: "Faculty Co-Ordinator",
             image: "",
-            info: "Mr. Shiv Nayan Prakash, the Faculty Coordinator of Conventus, plays a crucial role in mentoring students in debate, rhetoric, and diplomacy. Holding an M.A. from Hansraj College, DU, a PG Diploma in Translation, and currently pursuing his PhD, he brings extensive experience in research, linguistics, and public speaking. His dedication empowers students to excel in collaborative learning and international debate circuits."
+            info: "As Faculty Coordinator of Conventus, Deep Jyoti Roy guides the club's academic direction and mentors students in debate, rhetoric, and diplomacy. The role bridges the society and the institution — shaping the conference calendar, preparing delegates for national and international MUN circuits, and ensuring every Conventus event upholds the standards of rigour and decorum the club is known for."
         },
     ];
 
     const leaders = [
         {
-            name: "Ameya Atreya",
-            position: "Vice President",
-            image: "/images/Ameya_Atreya.jpg",
-            info: "As Vice President, Ameya Atreya plays a key role in strengthening the club’s initiatives and supporting members in their personal and professional growth. He is passionate about cultivating a space where students can engage with pressing global issues, practice diplomacy, and enhance their leadership abilities. Ameya ensures that every event aligns with Conventus’s mission to promote dialogue, inclusivity, and global awareness."
-        },
-        {
-            name: "Yashraj Ranjan",
-            position: "President",
-            image: "/images/uvp2.jpeg",
-            info: "As President of Conventus MUN Club, Yashraj Ranjan leads with vision and dedication, ensuring the club thrives as a hub for diplomacy, debate, and leadership. He is committed to creating meaningful opportunities for members to explore international relations, sharpen their critical thinking, and develop as future leaders. With his inclusive leadership style, Yashraj fosters collaboration and empowers members to contribute their ideas, driving Conventus forward as a platform where dialogue inspires real impact."
-        },
-        {
             name: "Deepanjali Sharma",
-            position: "Vice President",
+            position: "President",
             image: "/images/Deepanjali_Sharma.jpg",
-            info: "As Vice President, Deepanjali Sharma is dedicated to fostering collaboration and innovation within the Conventus community. She is deeply committed to empowering students to express their perspectives on international affairs while building confidence and communication skills. Through her leadership, Deepanjali ensures that the club remains a dynamic environment where students grow into thoughtful, impactful leaders ready to engage with the world."
+            info: "As President of Conventus MUN Club, Deepanjali Sharma sets the direction of the society and ensures it remains a hub for diplomacy, debate, and leadership. She is committed to creating meaningful opportunities for members to explore international relations, sharpen their critical thinking, and develop as future leaders. Through her inclusive leadership, Deepanjali fosters collaboration and empowers members to bring their ideas forward, driving Conventus as a platform where dialogue inspires real impact."
+        },
+        {
+            name: "Yash Gadia",
+            position: "Vice President",
+            image: "/images/yash-gadia.jpg",
+            info: "As Vice President, Yash Gadia supports the council in strengthening the club’s initiatives and helping members grow personally and professionally. The role spans planning, execution, and the day-to-day work that keeps Conventus running, ensuring every event aligns with the club’s mission to promote dialogue, inclusivity, and global awareness."
+        },
+        {
+            name: "Rachit Sai Sheelwant",
+            position: "Vice President",
+            image: "/images/Rachit_Sai_Sheelwant.jpg",
+            info: "As Vice President, Rachit Sai Sheelwant works to build a space where students can engage with pressing global issues, practise diplomacy, and sharpen their leadership abilities. The role focuses on preparing delegates for committee, guiding new members through their first conferences, and upholding the standards of debate Conventus is known for."
+        },
+        {
+            name: "Gauri Saxena",
+            position: "Vice President",
+            image: "/images/Gauri_Saxena.jpg",
+            objectPosition: "center center",
+            info: "As Vice President, Gauri Saxena is dedicated to fostering collaboration and innovation within the Conventus community, encouraging students to voice their perspectives on international affairs while building confidence and communication skills. Through this work, Conventus remains a dynamic environment where members grow into thoughtful, impactful leaders ready to engage with the world."
         },
     ];
 
@@ -242,7 +249,7 @@ export default function AboutPageOne() {
             <section className="py-24 px-6 sm:px-8 lg:px-12">
                 <div className="max-w-6xl mx-auto">
                     <SectionHeading eyebrow="The Council" title="Student Leadership" />
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         {leaders.map((l) => (
                             <LeaderCard key={l.name} {...l} />
                         ))}

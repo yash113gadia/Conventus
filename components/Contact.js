@@ -56,27 +56,39 @@ const Contact = () => {
                             <h3 className="text-2xl font-semibold mb-8 text-red-700 text-center">For More Information Contact Us</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
                                 <ContactPerson
-                                    name="Yashraj Ranjan"
+                                    name="Deepanjali Sharma"
                                     title="President"
-                                    phone="+91 7309328195"
+                                    phone="+91 72506 47615"
                                     email="4th Year"
                                 />
                                 <ContactPerson
-                                    name="Ameya Atreya"
+                                    name="Yash Gadia"
                                     title="Vice - President"
-                                    phone="+91 8448835989"
+                                    phone="+91 99500 94483"
                                     email="3rd Year"
                                 />
                                 <ContactPerson
-                                    name="Deepanjali Sharma"
+                                    name="Rachit Sai Sheelwant"
                                     title="Vice - President"
-                                    phone="+91 7250647615"
+                                    phone="+91 87919 67742"
                                     email="3rd Year"
                                 />
                                 <ContactPerson
-                                    name="Ark Pratap Singh"
-                                    title="Head coordinator"
-                                    phone="+91 9026673451"
+                                    name="Gauri Saxena"
+                                    title="Vice - President"
+                                    phone="+91 92893 72861"
+                                    email="3rd Year"
+                                />
+                                <ContactPerson
+                                    name="Ankur Mehrotra"
+                                    title="Head Coordinator"
+                                    phone="+91 91292 50466"
+                                    email="3rd Year"
+                                />
+                                <ContactPerson
+                                    name="Ashkand Mishra"
+                                    title="Head Coordinator"
+                                    phone="+91 83039 85874"
                                     email="3rd Year"
                                 />
                             </div>
